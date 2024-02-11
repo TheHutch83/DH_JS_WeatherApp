@@ -1,0 +1,132 @@
+:root {
+  background: linear-gradient(90deg, #3ddad8, #2a93d5, #135589);
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Search_Box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+#City_Input {
+  height: 30px;
+  width: 250px;
+  border-radius: 20px;
+  border: 1px solid #2a93d5;
+  background-color: #2a93d536;
+}
+
+#get-weather-button {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  border: 1px solid #2a93d5;
+  background-color: #2a93d536;
+}
+
+#getCurrentLocation {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  border: 1px solid #2a93d5;
+  background-color: #2a93d536;
+}
+
+/*400 screen*/
+
+/* . for class # for id */
+
+#Weather_Container {
+  text-align: center;
+  width: 400px;
+  /* background: red; */
+  max-width: 90%;
+  margin: 100px;
+  border-radius: 20px;
+  padding: 40px 35px;
+}
+
+#Summary_Box {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+
+#Summary_Box h2 {
+  color: white;
+  font-size: 20px;
+}
+
+#Next_24_HourSum {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+
+#Forecast_Container {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+
+#Air_Pollution {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+/* #UV_Index {
+      background-color: pink;
+    } not supported for free */
+
+#Wind {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+
+#Sunset {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+
+#Sunrise {
+  background-color: #2a93d536;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 1px solid #2a93d5;
+}
+
+/* tablet screen <900 */
